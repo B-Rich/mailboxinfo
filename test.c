@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include "mailbox/mailbox.h"
-#include "mailbox/xmailbox.h"
+#include "mailbox.h"
 
 static void print_general_info(unsigned p[], int fd);
 static void print_fb_info(unsigned p[], int fd);
